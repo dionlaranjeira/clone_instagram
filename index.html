@@ -2,14 +2,19 @@
 <html>
   <head>
     <link href="css/index.css" rel="stylesheet" type="text/css" >
+    <script type="text/javascript" src="js/main.js"></script>
+    
   </head>
   <body>
     <form>
       <div>
-      <input placeholder="Telefone, nome de usuário ou email" type="text" >
-      <p  class="inputText" >Teste</p>
-      <input placeholder="Senha" type="password">
-    </div>
+        <input type="text" class="inputText" />
+        <span class="floating-label">Telefone, nome do usuário ou email</span>
+      </div>
+      <div>
+        <input  placeholder="Senha"  type="password" class="inputPassword" id="myInput">
+        <span  id="btnMostrar"  onclick="myFunction()" >Mostrar</span>   
+      </div>
     </form>
   </body>
   </html>
