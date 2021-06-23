@@ -121,12 +121,12 @@ color:#0095f6;
 }
 
 .app-download:nth-child(1){
-  background-image: url("./img/apple-button.png");
+  background-image: url("/img/app-store.png");
 }
 
 
 .app-download:nth-child(2){
-  background-image: url("./img/google-button.png");
+  background-image: url("/img/play-store.png");
 }
 
 @media(max-width:1024px){
